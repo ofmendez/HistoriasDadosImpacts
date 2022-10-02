@@ -23,9 +23,9 @@ const Animate = (target, iDice) => {
     let times = 10.0;
     let interval = 1400.0/times;
     for (let index = 1; index < times; index++) 
-        setTimeout(() => {target.children[0].src = `/Images/Dados/Dado0${dice[iDice]}_${RandomInt(6)+1}.svg`}, interval*index);
+        setTimeout(() => {target.children[0].src = `./Images/Dados/Dado0${dice[iDice]}_${RandomInt(6)+1}.svg`}, interval*index);
     setTimeout(() => {
-        target.children[0].src = `/Images/Dados/Dado0${dice[iDice]}_${RandomInt(6)+1}.svg`
+        target.children[0].src = `./Images/Dados/Dado0${dice[iDice]}_${RandomInt(6)+1}.svg`
         target.classList.remove('shake')
     }, interval*times);
 }
