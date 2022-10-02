@@ -1,5 +1,5 @@
 import * as views from "./views.js";
-import { RandomInt, ñ } from './Utils.js';
+import { RandomInt, ñ } from './utils.js';
 
 window.views = views
 views.GoTo("home")
