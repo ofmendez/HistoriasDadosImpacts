@@ -18,7 +18,7 @@
      background-color: #022a3a;
 }
  .ContentWrapper{
-    height: calc(100vh - calc(100vh - 100%));
+    height: 100vh;
     width:100vw;
     background-position: top center;
     background-repeat: no-repeat;
@@ -54,6 +54,8 @@
   position: absolute;
   bottom:2vh;
   left:2vw;
+    width: 40vw;
+    max-width: 230px;
 }
 .FooterDadosPC{
   width: 50vw;
