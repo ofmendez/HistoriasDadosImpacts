@@ -17,8 +17,13 @@
  body{
      background-color: #022a3a;
 }
+
+:root {
+ --doc-height: 100%;
+}
+
  .ContentWrapper{
-    height: 100vh;
+    height: var(--doc-height);
     width:100vw;
     background-position: top center;
     background-repeat: no-repeat;
