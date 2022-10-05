@@ -218,8 +218,8 @@
 }
 
 .BotonInicio{
-  background: linear-gradient(#FA3A52, #FD8F9F) padding-box,
-            linear-gradient(180deg, #FD8F9F, #FA3A52) border-box;
+  background: linear-gradient(#FE6352, #FD8F9F) padding-box,
+            linear-gradient(180deg, #FD8F9F, #FE6352) border-box;
 }
 .BotonInstrucciones{
   background: linear-gradient(#242E5A, #5D6EA6) padding-box,
