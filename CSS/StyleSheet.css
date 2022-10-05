@@ -207,6 +207,8 @@
   font-family: 'LatoBlack', sans-serif;
     font-size: 3vh;
     padding: 8px 60px;
+    margin-left: 1vw;
+    margin-right: 1vw;
     text-align: center;
     color: #FFF;
     cursor: pointer;
